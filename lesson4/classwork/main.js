@@ -51,7 +51,7 @@
 //     for (i=0;i<xxx.length;i++){
 //         sum += xxx[i];
 //     }
-//     console.log(sum)
+//     return sum
 // }
 // arr(momo)
 
@@ -63,7 +63,7 @@
 //         sum += xxx[i];
 //     }
 //     let arf = sum / xxx.length
-//     console.log(arf)
+//     return arf
 //     }
 //     arr(momo)
 
@@ -114,11 +114,12 @@
 // Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
 // let news = [1, 2, 3, 4, 2323, 6, 7, 8];
 //
-// function arr(xxx) {
-//     let reversed = xxx.reverse()
-//     for (let i = 0; i < xxx.length; i++) {
-//         console.log(reversed[i])
-//
+// function reverse(arr) {
+//     let newArr = [];
+//     for (let i = arr.length - 1, ri = 0; i >= 0; i--, ri++) {
+//         newArr[ri] = arr[i];
 //     }
+//
+//     return newArr;
 // }
-// arr(news)
+// console.log(reverse(news))
