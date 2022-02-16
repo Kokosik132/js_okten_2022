@@ -200,3 +200,4 @@ let element = [`a`,`b`,`c`];
 // for (let string of element) {
 //     console.log((`${element[0]}${element[1]}${element[2]}`))
 // }
+//
