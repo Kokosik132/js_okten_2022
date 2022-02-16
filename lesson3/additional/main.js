@@ -52,7 +52,7 @@
 // EXAMPLE: [ 1, 2, 3, 5, 7, 9, 56, 8, 67 ] -> Має бути виведено 1, 9, 56
 // let arr = [1, 2, 3, 5, 7, 9, 56, 8, 67]
 // for (i=0;i<arr.length;i++){
-//     console.log(arr[i])
+//     console.log(arr[0],arr[5],arr[6])
 // }
 
 // 6. Є масив з числами [100,250,50,168,120,345,188], Які характеризують вартість окремої покупки. Обрахувати середній чек.
@@ -86,3 +86,117 @@
 //     }
 // }
 // console.log(arrrs)
+
+// - Дано 2 масиви з рівною кількістю об'єктів.
+//
+// З'єднати в один об'єкт користувача та місто з відповідними "id" та "user_id" .
+//     Записати цей об'єкт в новий масив
+// Example:
+//     let usersWithCities = [
+//         {
+//             id: 1, // <===
+//             name: 'vasya',
+//             age: 31,
+//             status: false,
+//             address: {
+//                 user_id: 1, // <===
+//                 country: 'Ukraine',
+//                 city: 'Ternopil'
+//             }
+//         },
+//         // TO BE CONTINUED .....
+//     ]
+
+// Масиви:
+// let usersWithId = [
+//     {id: 1, name: 'vasya', age: 31, status: false},
+//     {id: 2, name: 'petya', age: 30, status: true},
+//     {id: 3, name: 'kolya', age: 29, status: true},
+//     {id: 4, name: 'olya', age: 28, status: false}
+// ];
+//
+// let citiesWithId = [
+//     {user_id: 3, country: 'USA', city: 'Portland'},
+//     {user_id: 1, country: 'Ukraine', city: 'Ternopil'},
+//     {user_id: 2, country: 'Poland', city: 'Krakow'},
+//     {user_id: 4, country: 'USA', city: 'Miami'}
+// ];
+// ///////////////////////////
+// let newsArr = []
+// for (let userWithIdElement of usersWithId) {
+//     if (userWithIdElement.id === 1)
+//         newsArr.push(`id: ${userWithIdElement.id} name: ${userWithIdElement.name} age:${userWithIdElement.age} status:${userWithIdElement.status}`)
+// }
+//
+// for (let citiesWithIdElement of citiesWithId) {
+//     if (citiesWithIdElement.user_id === 1)
+//         newsArr.push(`user id: ${citiesWithIdElement.user_id} country: ${citiesWithIdElement.country} city: ${citiesWithIdElement.city}`)
+// }
+// console.log(newsArr)
+//
+//
+// for (let userWithIdElement of usersWithId) {
+//     if (userWithIdElement.id === 2)
+//         newsArr.push(`id: ${userWithIdElement.id} name: ${userWithIdElement.name} status: ${userWithIdElement.status}`)
+// }
+// for (let citiesWithIdElement of citiesWithId) {
+//     if (citiesWithIdElement.user_id === 2)
+//         newsArr.push(`user id: ${citiesWithIdElement.user_id} country: ${citiesWithIdElement.country} city: ${citiesWithIdElement.city}`)
+// }
+//
+//
+// for (let userWithIdElement of usersWithId) {
+//     if (userWithIdElement.id === 3)
+//         newsArr.push(`id: ${userWithIdElement.id} name: ${userWithIdElement.name} status: ${userWithIdElement.status}`)
+// }
+// for (let citiesWithIdElement of citiesWithId) {
+//     if (citiesWithIdElement.user_id === 3)
+//         newsArr.push(`user id: ${citiesWithIdElement.user_id} country: ${citiesWithIdElement.country} city: ${citiesWithIdElement.city}`)
+// }
+//
+// for (let userWithIdElement of usersWithId) {
+//     if (userWithIdElement.id === 4)
+//         newsArr.push(`id: ${userWithIdElement.id} name: ${userWithIdElement.name} status: ${userWithIdElement.status}`)
+// }
+// for (let citiesWithIdElement of citiesWithId) {
+//     if (citiesWithIdElement.user_id === 4)
+//         newsArr.push(`user id: ${citiesWithIdElement.user_id} country: ${citiesWithIdElement.country} city: ${citiesWithIdElement.city}`)
+// }
+
+
+// Взяти масив з 10 чисел або створити його. Вивести в консоль тільки ті елементи, значення яких є парними.
+// let arr = [23, 6, 54, 77, 43, 98, 6, 76, 88, 1];
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] % 2 === 0){
+//         console.log(arr[i])
+//     }
+// }
+
+// Взяти масив з 10 чисел або створити його. Створити 2й порожній масив. За допомогою будь-якого циклу скопіювати значення одного масиву в інший.
+// let arr = [23, 6, 54, 77, 43, 98, 6, 76, 88, 1];
+// let newarr = []
+// for (let i = 0; i < arr.length; i++) {
+//     newarr.push(arr[i])
+// }
+// console.log(newarr)
+
+// Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for зібрати всі букви в слово.
+let element = [`a`,`b`,`c`];
+// let elem = []
+// for (i=0;i<1;i++){
+//     console.log((`${element[0]}${element[1]}${element[2]}`))
+// }
+
+// Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу while зібрати всі букви в слово.
+
+// let i = 0;
+// while (i<1){
+//     console.log((`${element[0]}${element[1]}${element[2]}`))
+//     i++
+// }
+
+// Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for of зібрати всі букви в слово.
+
+// for (let string of element) {
+//     console.log((`${element[0]}${element[1]}${element[2]}`))
+// }
