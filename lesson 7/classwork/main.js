@@ -84,3 +84,44 @@
 // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
+
+function Popelushka(name, age, size) {
+this.name = name;
+this.age = age;
+this.size = size
+}
+let popelushkaSize = [
+    new Popelushka(`Oksana`,19,37),
+    new Popelushka(`Masha`, 22,38),
+    new Popelushka(`Lolka`, 39, 41),
+    new Popelushka(`Polka`, 24, 40),
+    new Popelushka(`Zina`, 27, 39),
+    new Popelushka(`Kris`, 22, 31),
+    new Popelushka(`Lesya`, 31, 33),
+    new Popelushka(`Olena`, 33, 36),
+    new Popelushka(`Sandra`, 16, 43),
+    new Popelushka(`Maryana`, 18, 32)
+]
+
+class Prince {
+    constructor(name,age,shoe) {
+        this.name = name;
+        this.age = age;
+        this.shoe = shoe;
+    }
+}
+const prince = new Prince(`Igorko`, 39,38);
+
+// let findPopelushky = (popelushkaSize,prince) => {
+//     for (let  popelushkaSizeElement of popelushkaSize){
+//     if (popelushkaSizeElement.size === prince.shoe){
+//         return `це вона ${popelushkaSizeElement.name}`
+//     }
+//     }
+// }
+// console.log(findPopelushky(popelushkaSize,prince))
+
+// Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
+// let findPopel = popelushkaSize.find((item) => item.size === prince.shoe);
+// console.log(findPopel);
+
