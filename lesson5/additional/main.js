@@ -42,4 +42,22 @@
 //     [0,1,2,3,4] => [1,2,3,4,0]
 //     [0,0,1,0]   => [1,0,0,0]
 
+// let ffff = [1,3,0,6,2,234,0,2,23,0,12,2,1,0,2]
+// function zerro(arr) {
+//     let zeroArr = [];
+//     let numbers = [];
+//     for (const number of arr) {
+//         if (number === 0){
+//             zeroArr.push(number)
+//         }
+//         else {
+//             numbers.push(number)
+//         }
+//     }
+//     return numbers.concat(zeroArr)
+//
+// }
+//
+// console.log(zerro(ffff))
+
 
