@@ -72,3 +72,4 @@ for (const coursesAndDurationArrayElement of coursesAndDurationArray) {
 
 
 
+
