@@ -1,0 +1,12 @@
+* {
+    margin: 5px;
+}
+.title {
+    cursor: pointer;
+}
+.menu.title ul  {
+    display: none;
+}
+.phidden {
+    display: none;
+}
