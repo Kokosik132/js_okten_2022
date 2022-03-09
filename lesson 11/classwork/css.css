@@ -1,0 +1,10 @@
+.divFlex {
+    display: flex;
+    margin: 10px;
+}
+.btn1css {
+    height:40px;
+    width: 140px;
+    margin-right: 10px;
+    cursor: pointer;
+}
