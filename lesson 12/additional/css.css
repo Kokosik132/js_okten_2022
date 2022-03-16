@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.allDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1500px;
+}
+.userDiv {
+    width: 255px;
+    height: -moz-fit-content;
+    height: fit-content;
+    border: 1px black solid;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.postDiv {
+    width: 255px;
+    height: -moz-fit-content;
+    height: fit-content;
+    border: 1px black solid;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 5px;
+}
+.commentDiv {
+    width: 255px;
+    height: -moz-fit-content;
+    height: fit-content;
+    border: 1px black solid;
+    border-radius: 8px;
+    -webkit-box-shadow: 5px 5px 15px 13px #000000;
+    box-shadow: 5px 5px 15px 13px #000000;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 5px;
+}

@@ -38,6 +38,7 @@ fetch(`https://jsonplaceholder.typicode.com/posts`)
                                 <h5>Email: ${commentElem.email}</h5>
                                 <h6>Body: ${commentElem.body}</h6>
                                 `;
+
                                 onDiv.append(commentDiv)
 
                             }
